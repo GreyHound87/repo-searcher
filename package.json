@@ -1,0 +1,34 @@
+{
+  "name": "repo-searcher",
+  "version": "1.0.0",
+  "description": "A pure JavaScript application that works with the public GitHub API and provides information about repositories based on a search query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreyHound87/repo-searcher.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "application",
+    "GitHub",
+    "API",
+    "repositories",
+    "search"
+  ],
+  "author": "Sergei Smirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreyHound87/repo-searcher/issues"
+  },
+  "homepage": "https://github.com/GreyHound87/repo-searcher#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "debounce": "^1.2.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
